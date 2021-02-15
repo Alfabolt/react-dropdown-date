@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface IProps {
-    value: number;
+    value: number | null;
     onChange: Function;
     id?: string;
     name?: string;

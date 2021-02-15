@@ -2,9 +2,9 @@ import * as React from 'react';
 import { daysInMonth } from './helper';
 
 interface IProps {
-    year: number;
-    month: number;
-    value: number;
+    year: number | null;
+    month: number | null;
+    value: number | null;
     onChange: Function;
     id?: string;
     name?: string;

@@ -2,8 +2,8 @@ import * as React from 'react';
 import { monthByNumber } from './helper';
 
 interface IProps {
-    year: number;
-    value: number;
+    year: number | null;
+    value: number | null;
     onChange: Function;
     defaultValue?: string
     numeric?: boolean;
