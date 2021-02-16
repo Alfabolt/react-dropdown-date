@@ -12,7 +12,7 @@
         "react",
         "react-date"
     ],
-    "main": "dist/index.js",
+    "src": "index/index.tsx",
     "repository": {
         "type": "git",
         "url": "https://github.com/ssxv/react-dropdown-date.git"
